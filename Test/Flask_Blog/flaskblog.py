@@ -4,7 +4,6 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOhxt84TRmphsDSLUqGsld+",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -25,27 +24,6 @@
       "source": [
         "<a href=\"https://colab.research.google.com/github/GisstHubana/FHIR_Reporting_Tool/blob/GisstHubana-patch-2/Test/Flask_Blog/flaskblog.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "# Vorbereitung\n",
-        "CleanUp - Eventuell gespeicherte Variablen löschen vor Ausführung des Colab books für eine bessere Reproduzierbarkeit"
-      ],
-      "metadata": {
-        "id": "HQXhEho4mh6z"
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "%reset -f"
-      ],
-      "metadata": {
-        "id": "4OHw0Sy-X9zN"
-      },
-      "execution_count": null,
-      "outputs": []
     },
     {
       "cell_type": "markdown",
