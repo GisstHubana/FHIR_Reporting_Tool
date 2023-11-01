@@ -12,4 +12,4 @@ Der [Code](https://github.com/GisstHubana/FHIR_Reporting_Tool/main/Code/fhir_rep
 Die Erstellung des Webinterfaces erfolgte mit [Flask](https://flask.palletsprojects.com/en/3.0.x/) in Anlehnung an dieses [YouTube-Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH) und dieses [YouTube-Tutorial](https://www.youtube.com/watch?v=0dYsZt8-nXk&list=PLTUSGW0o2A2FgYB43QuL6wxnUM4dUr1n3).
 
 ## Hinweis zur Reproduzierbarkeit
-Die Rohdaten können über [öffentliche Testserver des Kerndatensates der Medizininformatik Initiative](https://github.com/medizininformatik-initiative/kerndatensatz-testdaten)) sowie als [Testdaten](https://github.com/medizininformatik-initiative/kerndatensatz-testdaten/tree/master/Test_Data) als  bezogen werden.
+Die Rohdaten können über [öffentliche Testserver des Kerndatensates der Medizininformatik Initiative](https://github.com/medizininformatik-initiative/kerndatensatz-testdaten) sowie als [Testdaten](https://github.com/medizininformatik-initiative/kerndatensatz-testdaten/tree/master/Test_Data) als  bezogen werden.
