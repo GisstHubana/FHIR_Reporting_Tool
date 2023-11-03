@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ergebnisse</title>
+</head>
+<body>
+    <h1>Abfrageergebnisse</h1>
+    <table>
+        <tr>
+            <th>Spalte 1</th>
+            <th>Spalte 2</th>
+            <!-- Fügen Sie hier weitere Spalten hinzu, je nach Bedarf -->
+        </tr>
+        {% for row in result %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <!-- Fügen Sie hier weitere Spalten hinzu, je nach Bedarf -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
