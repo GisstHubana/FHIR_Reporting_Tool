@@ -2,23 +2,14 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Tabellenabfrage</title>
+    <title>Anfrage an Python</title>
 </head>
 <body>
-    <h1>Benutzerdaten</h1>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Alter</th>
-            <th>Stadt</th>
-        </tr>
-        {% for row in data %}
-        <tr>
-            <td>{{ row['Name'] }}</td>
-            <td>{{ row['Alter'] }}</td>
-            <td>{{ row['Stadt'] }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <h1>Formular zur Anfrage</h1>
+    <form action="/verarbeitung" method="post">
+        <label for="eingabe">Geben Sie etwas ein:</label>
+        <input type="text" id="eingabe" name="eingabe">
+        <input type="submit" value="Absenden">
+    </form>
 </body>
 </html>
