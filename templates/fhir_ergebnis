@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ergebnis</title>
+</head>
+<body>
+    <h1>Ergebnis</h1>
+    <p>Eingabe: {{ eingabe }}</p>
+    <p>Umgekehrt: {{ umgekehrt }}</p>
+    <p><a href="/">Zurück zum Formular</a></p>
+</body>
+</html>
