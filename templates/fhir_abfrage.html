@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabellenabfrage</title>
+</head>
+<body>
+    <h1>Benutzerdaten</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Alter</th>
+            <th>Stadt</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+            <td>{{ row['Name'] }}</td>
+            <td>{{ row['Alter'] }}</td>
+            <td>{{ row['Stadt'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
