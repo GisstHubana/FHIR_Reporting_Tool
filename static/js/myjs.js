@@ -1,4 +1,4 @@
 function ShowAlert() {
-alert("Hello Buddy!");
+alert("Hallo, dies ist ein Testknopf!");
   
 }
