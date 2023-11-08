@@ -6,8 +6,8 @@
 </head>
 <body>
     <h1>Formular zur Anfrage</h1>
-    <div class="container">
-        {{ table|safe }}
+    <div id="pandas-table-placeholder">
+        {{ table_html|safe }}</div>
     </div>
     <form action="/abfrage" method="post">
         <label for="abfrage">Geben Sie etwas ein:</label>
