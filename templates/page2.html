@@ -4,7 +4,14 @@
 <h1>
   <p>Welcome to home Page {{name}}</p>
   </h1>
-<div id="pandas-table-placeholder">
-    {{ table_html|safe }}
-</div>
+<head>
+    <meta charset="UTF-8">
+    <title>Pandas Tabelle im Webinterface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        {{ table|safe }}
+    </div>
+</body>
 {% endblock %}
