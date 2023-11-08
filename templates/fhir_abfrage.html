@@ -6,16 +6,9 @@
 </head>
 <body>
     <h1>Formular zur Anfrage</h1>
-        <table>
-      <tr>
-        <th>Überschrift 1</th>
-        <th>Überschrift 2</th>
-      </tr>
-      <tr>
-        <td>Zelle 1</td>
-        <td>Zelle 2</td>
-      </tr>
-    </table>
+    <div class="container">
+        {{ table|safe }}
+    </div>
     <form action="/abfrage" method="post">
         <label for="abfrage">Geben Sie etwas ein:</label>
         <input type="text" id="abfrage" name="abfrage" required>
