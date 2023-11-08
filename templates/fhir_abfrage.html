@@ -1,3 +1,6 @@
+{% extends "index.html" %}
+
+{% block body %}
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -5,14 +8,15 @@
     <title>FHIR-Abfrage-Tool</title>
 </head>
 <body>
-    <h1>Formular zur Anfrage</h1>
-    <div id="pandas-table-placeholder">
-        {{ table_html|safe }}</div>
-    </div>
+    <h1>Anfrage über ein Excel-File</h1>
     <form action="/abfrage" method="post">
-        <label for="abfrage">Geben Sie etwas ein:</label>
+        <label for="abfrage">Geben Sie eines der Schlüsselworte ('Patient-ID', 'Vorname', 'Nachname', 'Anschrift', 'Geburtsdatum',
+       'Geschlecht', 'Krankenkasse', 'Datum Einwilligung', 'PDAT Einwilligung',
+       'KKDAT retro Einwilligung', 'KKDAT Einwilligung', 'BIOMAT Einwilligung',
+       'BIOMAT Zusatz Einwilligung', 'Alter') ein:</label>
         <input type="text" id="abfrage" name="abfrage" required>
         <input type="submit" value="Ausführen">
     </form>
 </body>
 </html>
+{% endblock %}
