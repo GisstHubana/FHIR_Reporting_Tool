@@ -1,23 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ergebnisse</title>
+    <meta charset="UTF-8">
+    <title>Pandas Tabelle im Webinterface</title>
+    <!-- Optional können Sie hier CSS-Frameworks einbinden wie Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Abfrageergebnisse</h1>
-    <table>
-        <tr>
-            <th>Spalte 1</th>
-            <th>Spalte 2</th>
-            <!-- Fügen Sie hier weitere Spalten hinzu, je nach Bedarf -->
-        </tr>
-        {% for row in result %}
-        <tr>
-            <td>{{ row[0] }}</td>
-            <td>{{ row[1] }}</td>
-            <!-- Fügen Sie hier weitere Spalten hinzu, je nach Bedarf -->
-        </tr>
-        {% endfor %}
-    </table>
+    <div class="container">
+        <!-- Hier wird die Tabelle eingefügt -->
+        {{ table|safe }}
+    </div>
 </body>
 </html>
