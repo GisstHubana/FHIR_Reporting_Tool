@@ -6,8 +6,9 @@
 </head>
 <body>
     <h1>Ergebnis</h1>
-    <p>Eingabe: {{ eingabe }}</p>
-    <p>Umgekehrt: {{ umgekehrt }}</p>
-    <p><a href="/query">Zurück zum Formular</a></p>
+    <div>
+        {{ ergebnis_html | safe }}
+    </div>
+    <p><a href="/query">Zurück zur Abfrage</a></p>
 </body>
 </html>
