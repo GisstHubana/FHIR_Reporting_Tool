@@ -8,15 +8,16 @@
     <title>FHIR-Abfrage-Tool</title>
 </head>
 <body>
-    <h1>Anfrage über ein Excel-File</h1>
+    <h1>Anzeige aller Werte eines Schlüssels des Excel-Files</h1>
     <form action="/xls_abfrage2" method="post">
-        <label for="xls_abfrage2">Geben Sie eines der Schlüsselworte ('Patient-ID', 'Vorname', 'Nachname', 'Anschrift', 'Geburtsdatum',
+        <label for="xls_abfrage2">Geben Sie eines der Schlüssel ('Patient-ID', 'Vorname', 'Nachname', 'Anschrift', 'Geburtsdatum',
        'Geschlecht', 'Krankenkasse', 'Datum Einwilligung', 'PDAT Einwilligung',
        'KKDAT retro Einwilligung', 'KKDAT Einwilligung', 'BIOMAT Einwilligung',
        'BIOMAT Zusatz Einwilligung', 'Alter') ein:</label>
         <input type="text" id="xls_abfrage2" name="xls_abfrage2" required>
         <input type="submit" value="Ausführen">
     </form>
+    p><a href="/xls_datenabfrage">Interaktive Abfrage</a></p>
     <p><a href="/xls_table">Anzeigen der ersten 5 Zeilen der Excel-Tabelle</a></p>
     </a></p>
 </body>
