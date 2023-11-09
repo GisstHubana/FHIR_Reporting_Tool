@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ergebnis interaktiver Excel-Abfrage</title>
+</head>
+<body>
+    <h1>Ergebnis der interaktiven Excel-Abfrage</h1>
+    <div>
+        {{ interaktiv_ergebnis_xls_html | safe }}
+    </div>
+    <p><a href="/">Zurück zur Abfrage</a></p>
+</body>
+</html>
+{% endblock %}
