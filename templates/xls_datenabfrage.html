@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Geschlecht und Altersspanne auswählen</h1>
-    <form method="POST" action="/verarbeiten">
+    <form method="POST" action="/xls_verarbeiten">
         <label for="geschlecht_m">Männlich</label>
         <input type="radio" name="geschlecht" id="geschlecht_m" value="männlich">
         
@@ -20,6 +20,14 @@
         <label for="alter_bis">bis:</label>
         <input type="number" name="alter_bis" id="alter_bis" min="1" max="100" required>
         
+        <br><br>
+
+        <label for="kkdat_ja">KKDAT Einwilligung Ja</label>
+        <input type="radio" name="KKDAT Einwilligung" id="kkdat_ja" value="ja">
+        
+        <label for="kkdat_nein">KKDAT Einwilligung Nein</label>
+        <input type="radio" name="KKDAT Einwilligung" id="kkdat_nein" value="NaN"
+
         <br><br>
         
         <input type="submit" value="Auswählen">
