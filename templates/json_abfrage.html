@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FHIR-Abfrage-Tool</title>
+</head>
+<body>
+    <h1>Anfrage über ein ndjson-File</h1>
+    <form action="/json_abfrage2" method="post">
+        <label for="json_abfrage2">Geben Sie eines der Schlüsselworte ('NEU2') ein:</label>
+        <input type="text" id="json_abfrage2" name="json_abfrage2" required>
+        <input type="submit" value="Ausführen">
+</body>
+    </form>
+</body>
+</html>
+{% endblock %}
