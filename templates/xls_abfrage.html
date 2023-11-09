@@ -16,8 +16,12 @@
        'BIOMAT Zusatz Einwilligung', 'Alter') ein:</label>
         <input type="text" id="xls_abfrage2" name="xls_abfrage2" required>
         <input type="submit" value="Ausführen">
-</body>
     </form>
+    <p><a href="/table">
+        <div class="container">
+        {{ table|safe }}
+    </div>
+    </a></p>
 </body>
 </html>
 {% endblock %}
