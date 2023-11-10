@@ -1,5 +1,5 @@
 # FHIR_Reporting_Tool
-In dieser Projektarbeit im Rahmen des [Berufsbegleitenden Online-Master „Biomedizinische Informatik und Data Science“ der Hochschule Mannheim](https://www.master-bids.hs-mannheim.de/) wird eine Python-basierten FHIR-Reporting-Tools mit einer benutzerfreundlichen GUI zur Erstellung von Statistiken erstellt. Dies ermöglicht effiziente Analysen, beispielsweise bezüglich der Auslastung von Stationen oder der Anzahl der durchgeführten Prozeduren. Langfristig ist geplant, das Tool für die klinikinterne Forschung einzusetzen.
+In dieser Projektarbeit im Rahmen des [Berufsbegleitenden Online-Master „Biomedizinische Informatik und Data Science“ der Hochschule Mannheim](https://www.master-bids.hs-mannheim.de/) wird eine Python-basierten FHIR-Reporting-Tools mit einer benutzerfreundlichen GUI zur Erstellung von Statistiken erstellt. Dies ermöglicht technisch weniger affinen Tool-Nutzern Klinikdaten, ohne zusätzliche Schulung, effizient zusammenzustellen, beispielsweise bezüglich der Anzahl erteilte Einwilligungen von Patienten in einer bestimmten Altersgruppe, und zu analysieren. Langfristig ist eine klinikinterne Integration für die Nutzung zu Forschungszwecken geplant.
 
 Die Dokumentation des Projektes steht unter [FHIR_Reporting_Tool WIKI](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki) zur Verfügung.
 
