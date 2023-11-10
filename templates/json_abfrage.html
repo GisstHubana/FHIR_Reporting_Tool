@@ -10,11 +10,11 @@
 <body>
     <h1>Anfrage über ein ndjson-File</h1>
     <form action="/json_abfrage2" method="post">
-        <label for="json_abfrage2">Geben Sie eines der Schlüsselworte ('NEU2') ein:</label>
+        <label for="json_abfrage2">Geben Sie eines der Schlüsselworte (resourceType, type, entry) ein:</label>
         <input type="text" id="json_abfrage2" name="json_abfrage2" required>
         <input type="submit" value="Ausführen">
-</body>
     </form>
+    <p><a href="/json_table">Anzeigen der ersten 5 Zeilen der Excel-Tabelle</a></p>
 </body>
 </html>
 {% endblock %}
