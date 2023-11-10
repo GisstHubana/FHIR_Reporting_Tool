@@ -8,13 +8,15 @@
     <title>FHIR-Abfrage-Tool</title>
 </head>
 <body>
-    <h1>Anfrage über blaze-Server</h1>
+    <h1>Anzeige aller Schlüssels des Blaze-Servers</h1>
     <form action="/blaze_abfrage2" method="post">
-        <label for="blaze_abfrage2">Geben Sie eines der Schlüsselworte (NEU) ein:</label>
+        <label for="blaze_abfrage2">Geben Sie einen der Schlüssel ('id', 'type', 'total', 'entry', 'link', 'resourceType'') ein:</label>
         <input type="text" id="blaze_abfrage2" name="blaze_abfrage2" required>
         <input type="submit" value="Ausführen">
-</body>
     </form>
+    <p><a href="/blaze_datenabfrage">Interaktive Abfrage</a></p>
+    <p><a href="/blaze_table">Anzeigen der ersten 5 Zeilen der Excel-Tabelle</a></p>
+    </a></p>
 </body>
 </html>
 {% endblock %}
