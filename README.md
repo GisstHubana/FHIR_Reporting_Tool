@@ -7,7 +7,7 @@ In dieser Projektarbeit im Rahmen des [Berufsbegleitenden Online-Master „Biome
 Die Dokumentation des Projektes steht unter [FHIR_Reporting_Tool WIKI](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki) zur Verfügung.
 
 Das Projekt entstand über mehrere Entwicklungsschritte: 
-Ein vertiefter Einblick ist dem WIKI-Abschnitt [Datenmanagementplan](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Datenmanagementplan-%28basierend-auf-FAIR-Kriterien%29), [Archivierung](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Archivierung) und [Datenschutzfolgenabschätzung DSFA](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Datenschutzfolgenabsch%C3%A4tzung-DSFA) zu entnehmen.
+Ein vertiefter Einblick ist dem WIKI-Abschnitt [Datenmanagementplan](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Datenmanagementplan-%28basierend-auf-FAIR-Kriterien%29), [Archivierung sowie FAIR-Kriterien](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Archivierung) und [Datenschutzfolgenabschätzung DSFA](https://github.com/GisstHubana/FHIR_Reporting_Tool/wiki/Datenschutzfolgenabsch%C3%A4tzung-DSFA) zu entnehmen.
 
 ## Codeentwicklung
 Der [Code](https://github.com/GisstHubana/FHIR_Reporting_Tool/blob/main/Code/fhir_reporting_tool.ipynb) wurde mit [Google Colaboratory](https://colab.research.google.com/?hl=de) auf Python-Basis geschrieben.
