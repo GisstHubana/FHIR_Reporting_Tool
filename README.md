@@ -7,7 +7,7 @@ Das Projekt entstand über mehrere Entwicklungsschritte:
 Ein vertiefter Einblick ist dem WIKI-Abschnitt [Projektmanagement](https://GisstHubana/FHIR_Reporting_Tool/wiki/Projektmanagment) zu entnehmen.
 
 ## Codeentwicklung
-Der [Code](https://github.com/GisstHubana/FHIR_Reporting_Tool/blob/main/Code/fhir_reporting_tool.ipynb) wurde mit [Google Colab](https://colab.research.google.com/?hl=de) auf Python-Basis geschrieben.
+Der [Code](https://github.com/GisstHubana/FHIR_Reporting_Tool/blob/main/Code/fhir_reporting_tool.ipynb) wurde mit [Google Colaboratory](https://colab.research.google.com/?hl=de) auf Python-Basis geschrieben.
 
 Die Erstellung des Webinterfaces erfolgte mit [Flask](https://flask.palletsprojects.com/en/3.0.x/) in Anlehnung an dieses [YouTube-Tutorial](https://www.youtube.com/watch?v=0dYsZt8-nXk&list=PLTUSGW0o2A2FgYB43QuL6wxnUM4dUr1n3).
 
