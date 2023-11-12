@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Fire-Reporting-Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for("static", filename="styles/myfile.css")}}"
+  </head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blaze_abfrage">Blaze-Server-Abfrage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/xls_abfrage">Excel-Abfrage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/json_abfrage">json-Abfrage</a>
+        </li>
+    </div>
+  </div>
+</nav>
+{% block body%}  
+<body>
+  <h1>this is your index page
+    </h1>
+  <button onclick="ShowAlert()">Display Alert</button>
+  </body>
+{% endblock%}  
+<script src="{{url_for("static", filename="js/myjs.js")}}"></script>
+  </html>

@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>FHIR-Abfrage-Tool</title>
+</head>
+<body>
+    <h1>Anzeige aller Schlüssels des Blaze-Servers</h1>
+    <form action="/blaze_abfrage2" method="post">
+        <label for="blaze_abfrage2">Geben Sie einen der Schlüssel (fullUrl, resource, search) ein:</label>
+        <input type="text" id="blaze_abfrage2" name="blaze_abfrage2" required>
+        <input type="submit" value="Ausführen">
+    </form>
+    <p><a href="/blaze_get_data">Anzeigen der ersten 50 Einträge der Blaze-Serverabfrage</a></p>
+    </a></p>
+</body>
+</html>
+{% endblock %}

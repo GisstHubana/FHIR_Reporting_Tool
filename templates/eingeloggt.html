@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block body %}
+<h1>
+  <title>FHIR-Abfrage-Tool</title>
+  <meta charset="UTF-8">
+  <p>Willkommen beim FHIR-Abfrage-Tool {{name}}</p>
+</h1>
+<body>
+    <p>Wähle Blaze-/Excel-/json-Abfrage über die Navigationsbar</p>
+    <div class="container">
+        {{ table|safe }}
+    </div>
+</body>
+{% endblock %}

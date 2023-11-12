@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blaze-Tabelle im Webinterface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        {{ ndjson_table|safe }}
+        <p><a href="/json_abfrage">Zurück zur ndjson-Abfrage</a>
+    </div>
+</body>
+</html>

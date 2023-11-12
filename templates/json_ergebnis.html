@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ergebnis ndjson-Abfrage</title>
+</head>
+<body>
+    <h1>Ergebnis ndjson-Abfrage</h1>
+    <div>
+        {{ ergebnis_json_html | safe }}
+    </div>
+    <p><a href="/">Zurück zur Abfrage</a></p>
+</body>
+</html>
+{% endblock %}

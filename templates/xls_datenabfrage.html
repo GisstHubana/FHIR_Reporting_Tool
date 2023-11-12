@@ -1,0 +1,40 @@
+{% extends "index.html" %}
+
+{% block body %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interaktive Excel-Abfrage</title>
+</head>
+<body>
+    <h1>Geschlecht, Altersspanne und KKDAT-Einwilligung auswählen</h1>
+    <form method="POST" action="/xls_verarbeiten">
+        <label for="geschlecht_m">Männlich</label>
+        <input type="radio" name="geschlecht" id="geschlecht_m" value="männlich">
+        
+        <label for="geschlecht_w">Weiblich</label>
+        <input type="radio" name="geschlecht" id="geschlecht_w" value="weiblich">
+        
+        <br><br>
+        
+        <label for="alter_von">Alter von:</label>
+        <input type="number" name="alter_von" id="alter_von" min="1" max="100" required>
+        
+        <label for="alter_bis">bis:</label>
+        <input type="number" name="alter_bis" id="alter_bis" min="1" max="100" required>
+        
+        <br><br>
+
+        <label for="kkdat_ja">KKDAT Einwilligung Ja</label>
+        <input type="radio" name="KKDAT Einwilligung" id="kkdat_ja" value="ja">
+        
+        <label for="kkdat_nein">KKDAT Einwilligung Nein</label>
+        <input type="radio" name="KKDAT Einwilligung" id="kkdat_nein" value="NaN">
+
+        <br><br>
+        
+        <input type="submit" value="Auswählen">
+    </form>
+</body>
+</html>
+{% endblock %}

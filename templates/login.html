@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block body %}
+<form action="{{url_for("login")}}" method="POST">
+<label for="username">User Name:</label>
+<input type="text" id="username" name="username" placeholder="Username">
+<label for="password">Password:</label>
+<input type="text" id="password" name="password" placeholder="Password">
+<button type="submit">Login</button>
+<script>
+        {% if message %}
+        alert("{{ message }}");
+        {% endif %}
+</script>
+{% endblock %}

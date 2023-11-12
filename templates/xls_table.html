@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel-Tabelle im Webinterface</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        {{ xls_table|safe }}
+        <p><a href="/xls_abfrage">Zurück zur Excel-Abfrage</a>
+    </div>
+</body>
+</html>
